@@ -1,0 +1,510 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+header{
+    
+    position:  absolute;
+    top: 0;
+    width: 100%;
+   
+    
+}
+
+
+header .nav-bar .content-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+
+header .img{
+    width: 242px;
+    margin-left: 30px;
+}
+
+
+header ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+} 
+header ul li{
+    padding: 10px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    color:#fff ;
+}
+.btn{
+    background: linear-gradient(to right bottom, red,rgb(102, 0, 0));
+    padding: 18px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.btn:hover{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: red;
+    background: transparent;
+}
+
+.banner .content-area .btn{
+    padding: 18px 50px;
+    margin-left: 20px;
+}
+.banner{
+    background-image: url('../img/Fedlaw-Banner.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-area{
+    color: #fff;
+    padding: 250px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.content-area h3{
+    font-size: 60px;
+    margin: 0px;
+    font-family: Serif;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding:70px;
+}
+.text{
+    text-align: center;
+}
+.text .icon{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.charges-section > h1{
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+.parent{
+    background: #161D27;
+}
+.item{
+    background: linear-gradient(to right,red,rgb(138, 5, 5));
+    padding: 15px 15px;
+    width: 500px;
+    color: #fff; 
+    font-size: 22px;
+}
+.item ul{
+    font-size:25px;
+    text-decoration: solid;
+}
+.item h4{
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.contact-section{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display:flex ;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.contact-section h2{
+    color: #f0e6e6;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-section p{
+    color: #d1c9c9;
+    width: 600px;
+    line-height: 30px;
+    font-size: 21px;
+    font-family: arial;
+}
+.contact-section img{
+    margin-right: 120px;
+    width: 700px;
+}
+.button{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 22px 30px;
+    background-size: 5px;
+    background:linear-gradient(to right bottom, red, rgb(97, 3, 3));
+    margin-left:150px;
+    margin-top: 100px;
+}
+.button:hover{
+    background:transparent ;
+    border: red;
+    border-style: solid;
+    border-width: 0.5px;
+}
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.section2 h2{
+    font-size: 42px;
+    margin-left: 40px;
+    color:#f1e8e8;
+    font-family: 'Times New Roman', Times, serif;
+    width: 600px;
+    
+}
+
+
+.membership .img-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.membership h2{
+    text-align: center;
+    font-size: 40px;
+   
+
+}
+
+
+.membership .img-area .img{
+    width: 300px;
+}
+
+.section2 p{
+    color: #d1c9c9;
+    width: 650px;
+    font-size: 19px;
+    margin-left: 80px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+
+.section2 img{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+
+.rules-section{
+    background-image: url('../assets/img/concequences-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.rules-section .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1440px;
+    margin: 0 auto;
+    padding:30px
+}
+.rules-section h1{
+    font-size: 40px;
+    width: 700px;
+    font-weight: 900px;
+}
+.rules-section .content p{
+    color: #d1c9c9;
+    font-size: 21px;
+    margin-left:10px ;
+    font-weight: 700;
+}
+    
+.rules-section li{
+    color: #d1c9c9;
+    font-size:20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+
+.rules-section h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+
+.rules-section img{
+    margin-top: 180px;
+    margin-left: 140px;
+    width: 550px;
+}
+
+
+footer{
+    background: #1f2732;
+    margin-top: 100px;
+}
+
+
+.section-padding{
+    padding: 0 100px;
+}
+
+
+footer .content-area .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+footer .content-area  {
+    padding: 94px 0px 0;
+}   
+
+
+footer .content-area li{
+    list-style: none;
+}
+
+
+footer .content-area li a{
+    text-decoration: none;
+}
+
+
+footer .content-area .content h3{
+    font-size: 20px;
+}
+
+
+footer .content-area .content a{
+    color: #fff;
+    font-size: 20px;
+
+
+
+
+}
+
+
+footer .content-area .content .contact .call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+    ;
+}
+
+
+footer .content-area .content .contact .mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+    ;
+}
+
+
+footer .content-area .content .contact .location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+    ;
+}
+
+
+footer .content-area .content .contact p{
+    font-size: 20px;
+}
+
+
+footer .content-area .content{
+    margin-top: 50px;
+}
+
+
+footer .content-area .content h3{
+    font-size: 20px;
+}
+
+
+
+footer .content-area .content .contact .location i{
+    font-size: 20px;
+}
+
+
+footer .content-area .content .contact .mail  i{
+    font-size: 20px;
+}
+
+
+
+footer .content-area .content .contact .call i{
+    font-size: 20px;
+}
+
+
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+footer .copy-right{
+    margin-bottom: 0;
+}
+
+
+
+.title-area{
+    background: url('../img/banner.png')
+    center / cover no-repeat;
+    padding: 68px  0;
+
+}
+
+.title-area .content-area {
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.free .btn{
+    padding: 20px 50px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+
+.free .btn:hover{
+    color: red;
+}
+
+
+
+.free .button-area{
+    margin-top: 50px;
+}
+
+.free .content{
+    text-align: center;
+}
+
+
+.Appeals{
+    border-top:1px solid #3b4d66;
+}
+
+
+.shedule{
+    background: #161D27;
+}
+
+
+
+.shedule h2{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.shedule p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 55px;
+
+
+}
+
+section{
+    margin-top: -50px;
+}
+
+
+.contact-section img{
+    width: 274px;
+    height: 368px;
+}
+
+
+
+.section2 img{
+    width: 274px;
+    height: 368px;
+}
+
+
+footer .content-area img{
+    width: 800px;
+}
+
+
+footer .content .link{
+    padding-left: 145px;
+}
+
+
+footer .content .contact{
+    padding-right: 118px;
+}
+
+
+footer .copy-right p{
+    margin-top: 50px;
+    margin-bottom: 0
+    ;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+.rules-section .content{
+   
+}
